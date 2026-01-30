@@ -31,10 +31,10 @@ export default function ProfessionalPhoto() {
           {/* Photo */}
           <div className="hover-lift group relative">
             <div className="glass-effect rounded-xl overflow-hidden p-0">
-              <div className="aspect-square bg-gradient-to-br from-primary/30 to-secondary/30 rounded-lg overflow-hidden relative">
+              <div className="aspect-[3/4] bg-gradient-to-br from-primary/30 to-secondary/30 rounded-lg overflow-hidden relative">
                 {/* Professional portrait */}
                 <img
-                  src="/thompson-portrait.jpg"
+                  src="/thompson-portrait.jpeg"
                   alt="Thompson Nkhata - Strategic Consultant"
                   className="w-full h-full object-cover"
                 />
