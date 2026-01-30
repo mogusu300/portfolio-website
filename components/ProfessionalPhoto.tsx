@@ -34,7 +34,7 @@ export default function ProfessionalPhoto() {
               <div className="aspect-[3/4] bg-gradient-to-br from-primary/30 to-secondary/30 rounded-lg overflow-hidden relative">
                 {/* Professional portrait */}
                 <img
-                  src="/thompson-portrait.jpeg"
+                  src="/thompson-portrait.jpg"
                   alt="Thompson Nkhata - Strategic Consultant"
                   className="w-full h-full object-cover"
                 />
