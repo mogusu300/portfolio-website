@@ -100,9 +100,14 @@ export default function CampaignsWork() {
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight text-foreground">
             Campaigns as Cultural Infrastructure
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground max-w-3xl leading-relaxed">
+          <p className="text-base md:text-lg text-muted-foreground max-w-3xl leading-relaxed mb-8">
             I design campaigns as cultural infrastructure—not momentary activations. Each initiative is built to create meaning, participation, and long-term relevance while remaining measurable, adaptable, and brand-aligned.
           </p>
+          <div className="p-6 md:p-8 bg-accent/5 border border-accent/20 rounded-lg">
+            <p className="text-base md:text-lg text-foreground leading-relaxed">
+              <span className="font-semibold text-accent">Everything I do falls under campaigns.</span> Whether it's strategic narrative development, stakeholder alignment, market positioning, or brand protection strategy—all of it is fundamentally about designing cultural narratives that last. My approach treats every engagement as an opportunity to build narrative equity, reshape how organizations communicate, and create meaning that carries long-term impact.
+            </p>
+          </div>
         </div>
 
         {/* Campaigns Grid */}

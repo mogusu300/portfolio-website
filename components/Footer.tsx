@@ -58,18 +58,27 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Email Contact */}
+          {/* Email & Phone Contact */}
           <div>
             <p className="text-xs md:text-sm uppercase tracking-widest text-muted-foreground mb-6">
-              Email
+              Get In Touch
             </p>
-            <a
-              href="mailto:hello@thompsonnkhata.com"
-              className="inline-flex items-center gap-3 glass-effect rounded-lg px-4 py-2 text-foreground hover:text-accent hover:bg-white/60 transition-all duration-300 group"
-            >
-              <Mail className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              <span className="text-sm md:text-base">hello@thompsonnkhata.com</span>
-            </a>
+            <div className="space-y-3">
+              <a
+                href="mailto:thompsonnkhata2@gmail.com"
+                className="inline-flex items-center gap-3 glass-effect rounded-lg px-4 py-2 text-foreground hover:text-accent hover:bg-white/60 transition-all duration-300 group block w-full"
+              >
+                <Mail className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300 flex-shrink-0" />
+                <span className="text-sm md:text-base">thompsonnkhata2@gmail.com</span>
+              </a>
+              <a
+                href="tel:+260950063436"
+                className="inline-flex items-center gap-3 glass-effect rounded-lg px-4 py-2 text-foreground hover:text-accent hover:bg-white/60 transition-all duration-300 group block w-full"
+              >
+                <span className="text-sm font-semibold group-hover:translate-x-1 transition-transform duration-300">📱</span>
+                <span className="text-sm md:text-base">+260 950 063 436</span>
+              </a>
+            </div>
           </div>
         </div>
 

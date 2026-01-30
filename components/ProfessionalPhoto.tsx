@@ -30,16 +30,14 @@ export default function ProfessionalPhoto() {
         <div className={`grid md:grid-cols-2 gap-12 items-center transition-all duration-700 ${isVisible ? 'fade-in-up' : 'opacity-0'}`} style={{ transitionDelay: '200ms' }}>
           {/* Photo */}
           <div className="hover-lift group relative">
-            <div className="glass-effect rounded-xl overflow-hidden p-8 md:p-0">
+            <div className="glass-effect rounded-xl overflow-hidden p-0">
               <div className="aspect-square bg-gradient-to-br from-primary/30 to-secondary/30 rounded-lg overflow-hidden relative">
-                {/* Placeholder for professional photo */}
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground text-center p-8">
-                  <div className="space-y-4">
-                    <div className="text-6xl">📸</div>
-                    <p className="text-sm">Professional Portrait</p>
-                    <p className="text-xs text-muted-foreground">Add your professional headshot here</p>
-                  </div>
-                </div>
+                {/* Professional portrait */}
+                <img
+                  src="/thompson-portrait.jpg"
+                  alt="Thompson Nkhata - Strategic Consultant"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             {/* Decorative glow */}
@@ -79,7 +77,7 @@ export default function ProfessionalPhoto() {
 
             {/* CTA Button */}
             <a
-              href="mailto:hello@thompson.co"
+              href="mailto:thompsonnkhata2@gmail.com"
               className="inline-block glass-effect rounded-lg px-8 py-4 text-foreground font-medium uppercase tracking-wide hover-lift glow-effect transition-all duration-300 group"
             >
               <span className="flex items-center gap-2">

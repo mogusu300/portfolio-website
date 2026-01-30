@@ -33,7 +33,7 @@ export default function CTASection() {
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 transition-all duration-700 ${isVisible ? 'fade-in-up' : 'opacity-0'}`} style={{ transitionDelay: '200ms' }}>
           {/* Email CTA */}
           <a
-            href="mailto:hello@thompsonnkhata.com"
+            href="mailto:thompsonnkhata2@gmail.com"
             className="glass-effect rounded-lg p-8 hover-lift group transition-all duration-300"
           >
             <div className="flex flex-col items-start space-y-4">
@@ -42,7 +42,7 @@ export default function CTASection() {
               </div>
               <div className="text-left">
                 <h3 className="font-semibold text-lg text-foreground mb-2">Direct Email</h3>
-                <p className="text-sm text-muted-foreground mb-4">hello@thompsonnkhata.com</p>
+                <p className="text-sm text-muted-foreground mb-4">thompsonnkhata2@gmail.com</p>
               </div>
               <div className="inline-flex items-center gap-2 text-accent text-sm font-semibold uppercase tracking-wide group-hover:gap-3 transition-all duration-300">
                 Get in Touch <ArrowRight className="w-4 h-4" />
